@@ -2,6 +2,7 @@
 %   Created by Mazen Hrazi on 11/05/2018.
 %   Copyright © 2018 Mazen. All rights reserved.
 %
+
 runprog:-
   write("Hey, Please Enter Your Score:"),nl,read(X),
   findgrade(X,Y),write("Your Grade: "),write(Y).
